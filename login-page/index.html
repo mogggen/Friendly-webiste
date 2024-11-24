@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frienly website login page</title>
+    <link rel="stylesheet" href="login-page-style.css">
+  </head>
+  <body>
+    <div class="login-container">
+      <h2>Login</h2>
+      <form id="loginForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <button type="submit">Login</button>
+      </form>
+      <a href="#" onclick="alert('Though luck!');"> <p>Don't have an account? Register</p></a>
+      <p id="error-message" style="color: rgb(32, 31, 31); display: none;">Invalid credentials, please try</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
